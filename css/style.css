@@ -9,6 +9,15 @@ common
     box-sizing: border-box
 }
 
+body {
+    background-color: #f6f8f9;
+}
+
+main {
+    background-color: #fff;
+    margin: 40px auto;
+    width: 900px;
+}
 
 /****
 logo
@@ -25,8 +34,9 @@ h1 {
 }
 
 header {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 16px;
+    background-color: #fff;
+
 }
 
 /****
@@ -36,11 +46,20 @@ intestazione
 .container {
     width: 80%;
     margin: auto;
+    padding: 16px 0px;
 }
 
-.second-container {
-    width: 80%;
-    margin: auto;
+h3 {
+    margin: 16px 0px;
+}
+
+p {
+    margin: 16px 0px;
+}
+
+.line {
+    height: 2px;
+    background-color: #f6f8f9;
 }
 
 .first-button {
@@ -62,60 +81,47 @@ intestazione
 
 .check {
     color: green;
-    border-radius: 10px;
+    border-radius: 50%;
     border: 1px solid;
+    margin-right: 8px;
+    padding: 2px 4px;
 }
 
 .uncheck {
     color: red;
-    border-radius: 10px;
+    border-radius: 50%;
     border: 1px solid;
+    margin-right: 8px;
+    padding: 2px 4px;
 }
 
-.text-blue {
+.text{ 
     padding: 10px 15px;
     border-radius: 30px;
+    color:#fff;
+    display: inline-block;
+}
+
+.blue {
     background-color: #09a9ed;
-    color:#fff;
-    display: inline-block;
 }
 
-.text-purple {
-    padding: 10px 15px;
-    border-radius: 30px;
+.purple {
     background-color: #ab5de6;
-    color:#fff;
-    display: inline-block;
 }
 
-.text-green {
-    padding: 10px 15px;
-    border-radius: 30px;
-    background-color: #2cc6ab;
-    color:#fff;
-    display: inline-block;    
+.green {
+    background-color: #2cc6ab;   
 }
 
-.text-orange {
-    padding: 10px 15px;
-    border-radius: 30px;
-    background-color: #ff9b00;
-    color:#fff;
-    display: inline-block;   
+.orange {
+    background-color: #ff9b00; 
 }
 
-.text-pink {
-    padding: 10px 15px;
-    border-radius: 30px;
-    background-color: #ec4a9d;
-    color:#fff;
-    display: inline-block;   
+.pink {
+    background-color: #ec4a9d; 
 }
 
-.text-lime {
-    padding: 10px 15px;
-    border-radius: 30px;
-    background-color: #a3d116;
-    color:#fff;
-    display: inline-block;   
+.lime {
+    background-color: #a3d116;  
 }
