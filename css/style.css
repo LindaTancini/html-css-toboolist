@@ -8,3 +8,15 @@ common
     padding: 0;
     box-sizing: border-box
 }
+
+
+/****
+logo
+****/
+
+h1 {
+    display: inline-block;
+    font-weight: bold;
+    padding-top: 18px;
+    padding-bottom:24px;
+}
