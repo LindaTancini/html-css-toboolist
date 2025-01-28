@@ -27,3 +27,14 @@ header {
 /****
 intestazione
 ****/
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.first-button {
+    border: 50px;
+    background-color: #14aaf5;
+    color: #fff;
+}
