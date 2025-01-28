@@ -17,6 +17,11 @@ logo
 h1 {
     display: inline-block;
     font-weight: bold;
+    vertical-align: middle;
+}
+
+#logo {
+    vertical-align: middle;
 }
 
 header {
@@ -34,7 +39,17 @@ intestazione
 }
 
 .first-button {
-    border: 50px;
+    padding: 10px 15px;
+    border-radius: 10px;
     background-color: #14aaf5;
-    color: #fff;
+    color:#fff;
+}
+
+.second-button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: grey;
+    border: 1px solid black;
+
 }
