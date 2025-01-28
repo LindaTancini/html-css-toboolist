@@ -20,3 +20,16 @@ h1 {
     padding-top: 18px;
     padding-bottom:24px;
 }
+
+/****
+intestazione
+****/
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.first-button {
+    border-color: #14aaf5;
+}
