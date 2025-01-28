@@ -17,19 +17,13 @@ logo
 h1 {
     display: inline-block;
     font-weight: bold;
-    padding-top: 18px;
-    padding-bottom:24px;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /****
 intestazione
 ****/
-
-.container {
-    margin: auto;
-    width: 80%;
-}
-
-.first-button {
-    border-color: #14aaf5;
-}
