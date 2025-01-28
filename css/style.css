@@ -38,11 +38,17 @@ intestazione
     margin: auto;
 }
 
+.second-container {
+    width: 80%;
+    margin: auto;
+}
+
 .first-button {
     padding: 10px 15px;
     border-radius: 10px;
     background-color: #14aaf5;
     color:#fff;
+    display: inline-block;
 }
 
 .second-button {
@@ -51,5 +57,65 @@ intestazione
     background-color: #fff;
     color: grey;
     border: 1px solid black;
+    display: inline-block;
+}
 
+.check {
+    color: green;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.uncheck {
+    color: red;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.text-blue {
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #09a9ed;
+    color:#fff;
+    display: inline-block;
+}
+
+.text-purple {
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #ab5de6;
+    color:#fff;
+    display: inline-block;
+}
+
+.text-green {
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #2cc6ab;
+    color:#fff;
+    display: inline-block;    
+}
+
+.text-orange {
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #ff9b00;
+    color:#fff;
+    display: inline-block;   
+}
+
+.text-pink {
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #ec4a9d;
+    color:#fff;
+    display: inline-block;   
+}
+
+.text-lime {
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #a3d116;
+    color:#fff;
+    display: inline-block;   
 }
